@@ -17,6 +17,7 @@ body {
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
@@ -80,7 +81,7 @@ body {
     margin: 20px 0;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 856px) {
     .header {
         flex-direction: column;
         justify-content: center;
@@ -93,6 +94,7 @@ body {
     }
 
     .cards {
+        display: flex;
         flex-direction: column;
     }
 
@@ -100,6 +102,9 @@ body {
         margin-right: 0px;
         margin-bottom: 40px;
     }
+}
+
+@media (max-width: 560px) {
 
     .avatar {
         height: 350px;
