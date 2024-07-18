@@ -44,6 +44,11 @@ body {
     margin: 30px 0;
 }
 
+.left a {
+    text-decoration: none;
+    color: white;
+}
+
 .btn {
     border-style: none;
     background-color: black;
@@ -71,6 +76,7 @@ body {
 .card {
     margin-right: 50px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .card:last-child {
@@ -80,6 +86,8 @@ body {
 .card h3 {
     margin: 20px 0;
 }
+
+
 
 @media (max-width: 856px) {
     .header {
